@@ -1,0 +1,63 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.vscode/
+backend/*.user
+backend/*.config
+backend/appsettings.*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+postgres_data/
+*.sqlite
+*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+coverage/
+.nuxt/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Docker
+.dockerignore
